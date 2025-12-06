@@ -1,0 +1,1 @@
+cls && g++ -O3 -mfma -mavx -mavx2 -msse -mmmx -ffast-math -flto -funroll-loops -DNDEBUG -march=native -mtune=native -o prime.exe prime.cpp && prime.exe
